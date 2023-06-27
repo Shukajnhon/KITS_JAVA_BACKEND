@@ -1,4 +1,4 @@
-package week2_OOP.Day_01;
+package week2_OOP.Day_01.Abstract;
 
 public class Car {
     private String brand;
@@ -29,13 +29,6 @@ public class Car {
         System.out.println("Brand: " + brand);
         System.out.println("Color: " + color);
         System.out.println("Year: " + year);
-    }
-
-    public static void main(String[] args) {
-        Car car = new Car("Kia", "red", 2020);
-
-        car.displayInfo();
-
     }
 
 }
